@@ -3,10 +3,23 @@
 
 ## 介绍
 
-本APICenter是由fcc所维护的，具有api功能的机器人。
-值得一提的是，所有**获得许可**的开发人员均可使用此APICenter。
-也就是说，fcc其实仅提供并维护了这一个平台。
+本APICenter是一个具有api功能的机器人。  
+值得一提的是，所有**获得许可**的开发人员均可使用此APICenter。  
+fcc事实上仅仅提供并维护了这一个平台。
+ - 当前状态：**已开启**
  - 服务时间: 2019.03.17-至今
  - 服务范围：QQ内不限范围
  
 ## 功能
+
+## 关于
+
+ - 机器人：酷Q Air
+ - 插件（可供透露的）: 
+   - HTTP API（版本跟随更新）「https://cqhttp.cc」
+   - CoolQ Socket API（版本2.3.0）
+   - 语言库-Hanyuu
+ - 环境：
+   - 系统：Windows Server 2012 R2
+   - nodejs
+   - python 3.7
