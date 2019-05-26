@@ -2,4 +2,4 @@
 - **类别**
   - [**APICenter**](api_main.md)
   - [**搜图姬**](picfinder.md)
-  - [~~QQ&TG互联~~]
+  - [~~QQ&TG互联~~](qqtg.md)
