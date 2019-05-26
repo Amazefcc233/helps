@@ -1,5 +1,5 @@
 - [**首页**](README)
-- **功能**
+- **类别**
   - [**APICenter**](api_main.md)
   - [**搜图姬**](picfinder.md)
   - [~~QQ&TG互联~~]
