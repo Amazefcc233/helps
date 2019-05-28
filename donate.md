@@ -1,7 +1,6 @@
 # 捐赠
 
-###您好！我很可爱！请给我钱！
-（）
+### 您好！我很可爱！请给我钱！
 
 支付宝请看这里！  
 ![支付宝](https://amazefcc233.com/pic/geiqian/Alipay.png)  
