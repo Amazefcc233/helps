@@ -15,9 +15,9 @@ fcc事实上仅仅提供并维护了这一个平台。
 
 目前APICenter支持以下功能。
  - 可提供fccの机器人全局帮助/help
- - 「msc限定」自助添加白名单
- - 「msc限定」查看服务器人数数据&远程执行命令
- - 「搜图姬限定」自助添加白名单
+ - 「部分群」可使用"MyID=游戏id"自助添加白名单
+ - 「部分群」查看服务器人数数据&远程执行命令
+ -  --「搜图姬限定」自助添加白名单--
 
 ## 关于
 
@@ -31,4 +31,4 @@ fcc事实上仅仅提供并维护了这一个平台。
    - nodejs
    - python 3.7
  - 功能实现：
-   - msc相关功能 - Tnze「 https://github.com/Miaoscraft 」
+   - mc相关功能 - Tnze「 https://github.com/Miaoscraft 」
