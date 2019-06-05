@@ -89,7 +89,7 @@ ru -> RUS
 ## 关于
 
  - 机器人：酷Q Air
- - 插件：
+ - 插件（可供透露的）：
    - http-api : richardchien/coolq-http-api（https://github.com/richardchien/coolq-http-api）
    - 井字棋 : Tnze
    - 语言库 : Hanyuu

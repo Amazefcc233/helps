@@ -1,9 +1,8 @@
-- **类别**
-
+- **机器人**
   - [**APICenter**](api_main.md)
   - [**搜图姬**](picfinder.md)
   - [~~QQ&TG互联~~](qqtg.md)
-
+- **插件**
+  - [一言（开源）](pl_hitokoto.md)
 - [**捐赠**](donate.md)
-
 - [**更新公告**](update.md)
