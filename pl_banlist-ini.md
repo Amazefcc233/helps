@@ -55,9 +55,7 @@
   
   > ### v1.0.1
   
-  
-  !> 此版本的配置文件发生巨大变化。为保证正常使用请删除data/app/com.amazefcc233.banlist-ini/banliat.ini文件！  
-  
+    !> 此版本的配置文件发生巨大变化。为保证正常使用请删除data/app/com.amazefcc233.banlist-ini/banliat.ini文件！  
   
   - 可以使用命令一键退群并拉黑该群
   - 已被拉黑的群再邀请机器人时可拒绝请求（可调）
