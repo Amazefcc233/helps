@@ -96,6 +96,8 @@ ru -> RUS
    - 井字棋 : Tnze
    - 语言库 : Hanyuu
    - 一言 : fcc（根据戴兜的开源com.daidou.yiyan一言插件进行bug修复和小功能升级）
+   - at全体成员计数器 : fcc  
+   - 全局黑名单 : fcc
  - 环境：
    - Windows Server 2012 R2
    - nodejs

@@ -25,7 +25,7 @@
  - 插件（可供透露的）: 
    - HTTP API（版本跟随更新）「 https://cqhttp.cc 」
    - CoolQ Telegram Bot X「 https://github.com/JogleLew/coolq-telegram-bot-x 」
-   - 语言库 - Hanyuu
+   - 语言库 : Hanyuu
  - 环境：
    - wine(docker) 主机Ubuntu
  - 功能实现：
