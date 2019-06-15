@@ -7,7 +7,7 @@
 当fcc学会了sqlite和json等等这类东西之后，就会放弃ini的！
 
  - 创建时间：2019.06.14
- - 当前版本：1.0.1
+ - 当前版本：1.0.2
  - 服务范围：私聊&QQ群&讨论组
  - 分配机器人：
    - [APICenter](api_main.md)
@@ -49,9 +49,13 @@
   
 ## 下载
 
-  > v1.0.1 - [插件下载](https://ro.amazefcc233.com/dl/plugins/banlist-ini/1.0.1/com.amazefcc233.banlist-ini.cpk) | 源码暂未公布
+  > v1.0.2 - [插件下载](https://ro.amazefcc233.com/dl/plugins/banlist-ini/1.0.2/com.amazefcc233.banlist-ini.cpk) | 源码暂未公布
  
 ## 更新日志
+  
+  > ### v1.0.2
+  
+  - 修复了管理员在使用命令时可能会与其他私聊应用冲突的问题
   
   > ### v1.0.1
   
