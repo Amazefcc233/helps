@@ -5,6 +5,6 @@
 - **插件**
   - [一言](pl_hitokoto.md)
   - [at全体成员计数器（即将开源）](pl_atallcounter.md)
-  - [全局黑名单（即将开源）](pl_banlist-ini.md)
+  - [全局黑名单（开源）](pl_banlist-ini.md)
 - [**捐赠**](donate.md)
 - [**更新公告**](update.md)
