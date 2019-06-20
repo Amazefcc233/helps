@@ -52,8 +52,12 @@
   
 ## 下载
 
-  > v1.0.2 - [插件下载](https://cqp.cc/t/43675) | 源码暂未公布
- 
+  > v1.0.2 - [插件下载](https://cqp.cc/t/43675) | [源码下载](https://cqp.cc/t/43675)  
+  
+  以下是过时的存档版本。请注意以往版本可能会存在严重的bug。因此不推荐您进行下载。
+  
+  > v1.0.1 - [插件下载](https://ro.amazefcc233.com/dl/plugins/banlist-ini/1.0.1/com.amazefcc233.banlist-ini.cpk) | 此版本下源码未公布
+  
 ## 更新日志
   
   > ### v1.0.2
