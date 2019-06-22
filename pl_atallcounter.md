@@ -49,15 +49,16 @@
  
 ## 下载
 
-  > v1.0.1 [插件下载](https://cqp.cc/t/43762) | 源码暂未公布
-  > v1.0.0 [插件下载](https://ro.amazefcc233.com/dl/plugins/atallcounter/1.0.0/com.amazefcc233.atallcounter.cpk) | 源码暂未公布
+  > v1.0.1 [插件下载](https://cqp.cc/t/43762) | 源码暂未公布   
+  
+  > v1.0.0 [插件下载](https://ro.amazefcc233.com/dl/plugins/atallcounter/1.0.0/com.amazefcc233.atallcounter.cpk) | 源码暂未公布   
   
 ## 更新日志
   
   > ### v1.0.1
   
-  !> 此版本数据存储结构已变更。请在插件启用前将data/app/com.amazefcc233.atallcounter目录全部删除，然后重启酷Q或重载插件来使配置生效！  
-  
+  !> 此版本数据存储结构已变更。请在插件启用前将data/app/com.amazefcc233.atallcounter目录全部删除，然后重启酷Q或重载插件来使配置生效！      
+      
   - 重置了数据存储结构
   - 可通过配置文件修改管理员
   - 可通过配置文件修改图片参数
