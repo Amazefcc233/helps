@@ -35,6 +35,7 @@
     本插件仅含有一份配置文件，位于```data/app/com.amazefcc233.banlist-ini/banlist.ini```
 	```ini
     [config]
+	version=1.0.3    ; 当前插件版本号，请勿修改本行内容，否则可能导致部分配置文件被初始化！
     admin_qq=3051467276    ; 机器人管理QQ号
     always-command_quit=0    ; 永久授权退群/讨论组并拉入黑名单，0为禁用，1为启用
     auto-command_quit=0    ; 单次授权退群/讨论组并拉入黑名单，插件重启后失效，此栏不需要任何改动
@@ -52,13 +53,21 @@
   
 ## 下载
 
-  > v1.0.2 - [插件下载](https://cqp.cc/t/43675) | [源码下载](https://cqp.cc/t/43675)  
+  > v1.0.3 - [插件下载](https://cqp.cc/t/43675) | 该版本源码暂未公布
   
   以下是过时的存档版本。请注意以往版本可能会存在严重的bug。因此不推荐您进行下载。
+  
+  > v1.0.2 - [插件下载](https://ro.amazefcc233.com/dl/plugins/banlist-ini/1.0.2/com.amazefcc233.banlist-ini.cpk) | [源码下载](https://cqp.cc/t/43675)  
   
   > v1.0.1 - [插件下载](https://ro.amazefcc233.com/dl/plugins/banlist-ini/1.0.1/com.amazefcc233.banlist-ini.cpk) | 此版本下源码未公布
   
 ## 更新日志
+  
+  > ### v1.0.3
+  
+  - 增加升级命令。您可使用```!!update```或```!!update banlist-ini```来检测新版本。
+    （前一个命令将会检测所有fcc所写插件，后一个命令将只检测全局黑名单插件）
+  - 配置文件稍有改动，但您无需任何操作。
   
   > ### v1.0.2
   
