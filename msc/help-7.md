@@ -1,4 +1,4 @@
-# Miaoscraft 新人引导
+# Miaoscraft 新人引导（7/7）
 
 ## Step.7
 

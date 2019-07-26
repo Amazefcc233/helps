@@ -1,4 +1,4 @@
-# Miaoscraft 新人引导
+# Miaoscraft 新人引导（2/7）
 
 ## Step.2
 除非有bug，否则白名单已经被添加啦～   
