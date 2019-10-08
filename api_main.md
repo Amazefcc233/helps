@@ -25,7 +25,7 @@ fcc事实上仅仅提供并维护了这一个平台。
 
 ## 关于
 
- - 机器人：酷Q Pro
+ - 机器人：酷Q **Pro**
  - 插件（可供透露的）: 
    - HTTP API（版本跟随更新）「 https://cqhttp.cc 」
    - CoolQ Socket API（版本2.3.0）
