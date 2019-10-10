@@ -32,7 +32,14 @@ fcc事实上仅仅提供并维护了这一个平台。
    - 语言库 : Hanyuu
    - 全局黑名单 : fcc
    - ~~领养宠物 : Tnze「 https://cqp.cc/t/43785 」~~
-   - SiS : Tnze
+   - SiS : Tnze 
+   - 占卜 (for msc only) : fcc
+   - 服务器人数 (for dc only) : fcc
+   - 一个顶俩 (for msc only) : fcc
+   - msc入群指导 (for msc only) : fcc
+   - msc入群正版id自动审核 (for msc only) : fcc
+   - sis reload message (for msc only) : fcc
+   - auto build (for msc only : fcc
  - 环境：
    - Windows Server 2012 R2
    - nodejs
