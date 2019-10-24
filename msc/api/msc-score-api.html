@@ -2,9 +2,11 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>MSC-TEST接口文档</title>
+<title>msc-测试结果录入api文档</title>
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="ApiPost">
+<meta name="description" content="msc-测试结果录入api文档/由Apipost生成">
 <!--自适应声明部分-->
 <meta name="applicable-device" content="pc" />
 <link rel="shortcut icon" href="https://console.apipost.cn/favicon.ico">
@@ -35,8 +37,8 @@
         	window.open(_href);
         });
 
-		let _left_menus = [{"parent_id":0,"folder_id":-1,"name":"\u9ed8\u8ba4\u6587\u4ef6\u5939","item":[{"apiid":"163495","name":"api-post","sort":"0","folder_id":"-1"}]}];
-		let _init_apiid = 163495;
+		let _left_menus = [{"parent_id":"0","folder_id":"25567","name":"msc-\u6d4b\u8bd5\u7ed3\u679c\u5f55\u5165api","item":[{"apiid":"168666","name":"msc-api-v2","sort":"0","folder_id":"25567"},{"apiid":"163495","name":"msc-api-v1","sort":"0","folder_id":"25567"}]}];
+		let _init_apiid = 168666;
 
 		if(window.location.hash){
 			let _hash_apiid = parseInt(window.location.hash.substr(1));
@@ -236,15 +238,179 @@
 		          	<a class="btn pull-left document-pull-left" href="javascript:;">&nbsp;
 		            	<i class="fa fa-align-justify"></i></a>
 		        </div>
-		        <!--<h1><!-- MSC-TEST接口文档 </h1>-->
+		       <!-- <h1> MSC-TEST接口文档 </h1>-->
 	    	</div>
 	    	                        <!--Array
 (
-    [apiid] => 163495
-    [name] => api-post
-    [url] => https://cp.amazefcc233.com/msc/test/v1-2/api-post.php?id=player_id
+    [apiid] => 168666
+    [name] => msc-api-v2
+    [url] => https://cp.amazefcc233.com/msc/api/test_v1-2/api-v2.php
     [method] => POST
-    [mark] => developing
+    [mark] => complated
+    [request_type] => 3
+    [request_header_ischecked] => 1
+    [request_query_ischecked] => 0
+    [request_body_ischecked] => 1
+    [auth] => Array
+        (
+        )
+
+    [request_header] => Array
+        (
+            [0] => Array
+                (
+                    [indent] => 0
+                    [key] => 
+                    [value] => 
+                    [not_null] => 0
+                    [placeholder] => 参数值
+                    [type] => Text
+                    [description] => 
+                    [isencode] => 0
+                    [is_para_checked] => 0
+                )
+
+        )
+
+    [request_query] => Array
+        (
+        )
+
+    [request_body] => Array
+        (
+            [0] => Array
+                (
+                    [description] => 
+                    [indent] => 0
+                    [key] => 
+                    [not_null] => 0
+                    [placeholder] => 参数描述，用于生成文档
+                    [type] => Text
+                    [value] => 
+                    [is_para_checked] => 1
+                )
+
+        )
+
+    [request_raw_body] => {    "id": "f_c_c",    "Token": "SOME-TOKEN",    "Type": "1",    "Timestamp": "0"}
+)
+-->	    	<div class="page-wrapper hide" tabindex="168666" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1 class="api-name-class"><i class="fa fa-link" aria-hidden="true"></i>msc-api-v2 </h1>
+	            			            		<blockquote>
+	            			msc-测试结果录入api-v2<br />
+旧版本的api已不再有效，仅作为测试和参考使用	            		</blockquote>
+	            		                        	            		<h4>接口URL</h4>
+	            		<code>https://cp.amazefcc233.com/msc/api/test_v1-2/api-v2.php</code>
+                        	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+                                                                            <h4>请求 Content-Type</h4>
+                            <code>application/json</code>
+                                                	            		<!-- 开始 request_all_header -->
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th style="width: 28%">参数</th>
+			                  			<th style="width: 30%">示例值</th>
+                                        <th style="width: 7%">必填</th>
+			                  			<th style="width:35%">参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+                        	            			            		<h4>请求Body参数</h4>
+                         	            		<pre class="language-javascript"><code class="lang-json">{
+    &quot;id&quot;: &quot;f_c_c&quot;,
+    &quot;Token&quot;: &quot;SOME-TOKEN&quot;,
+    &quot;Type&quot;: &quot;1&quot;,
+    &quot;Timestamp&quot;: &quot;0&quot;
+}</code></pre>
+                        	            			            		<blockquote>id : 玩家id，大小写不敏感，但推荐键入正确的id，必填<br />
+Token : 管理员Token，将会在录入前进行验证。若验证失败，则当前次请求无效，必填（示例请求的SOME-TOKEN可用，但不会录入数据库）<br />
+Type : 添加类型，请填写固定值1，非必填<br />
+Timestamp : 时间戳，请填写固定值0，非必填</blockquote>
+	            			            		                        
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            			            		<div class="document-block-div response_body-div">
+		            		<h4>响应参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th style="width: 28%">参数</th>
+			                  			<th  style="width: 72%"colspan="2">参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th style="text-indent: 0em">id</th>
+			                  			<td colspan="2">录入的游戏id</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th style="text-indent: 0em">Type</th>
+			                  			<td colspan="2">录入类型（默认为1）</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th style="text-indent: 0em">Timestamp</th>
+			                  			<td colspan="2">时间戳（默认为0）</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th style="text-indent: 0em">Status</th>
+			                  			<td colspan="2">状态，通常为“Ready”或“Debug-Mode”</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th style="text-indent: 0em">Debug</th>
+			                  			<td colspan="2">（仅Debug模式下）Debug模式，一般为True</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th style="text-indent: 0em">Notice</th>
+			                  			<td colspan="2">（仅Debug模式下）Debug模式提醒</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    &quot;id&quot;: &quot;f_c_c&quot;,
+    &quot;Type&quot;: &quot;1&quot;,
+    &quot;Timestamp&quot;: &quot;0&quot;,
+    &quot;Status&quot;: &quot;Debug-Mode&quot;,
+    &quot;Debug&quot;: &quot;True&quot;,
+    &quot;Notice&quot;: &quot;当前正在Debug模式中，数据库未进行操作&quot;
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>{
+    &quot;Error&quot;: &quot;错误码（和http状态码相同）&quot;,
+    &quot;Reason&quot;: &quot;错误原因&quot;
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+            	      	                        <!--Array
+(
+    [apiid] => 163495
+    [name] => msc-api-v1
+    [url] => https://cp.amazefcc233.com/msc/api/test_v1-2/api-v1.php?id=player_id
+    [method] => POST
+    [mark] => complated
     [request_type] => 1
     [request_header_ischecked] => 0
     [request_query_ischecked] => 1
@@ -304,7 +470,7 @@
                 (
                     [key] => Timestrap
                     [value] => 0
-                    [description] => 时间戳，请填写固定值0
+                    [description] => 时间戳，请返回固定值0
                     [placeholder] => 参数值
                     [type] => Text
                     [not_null] => 0
@@ -316,7 +482,7 @@
                 (
                     [key] => Type
                     [value] => 1
-                    [description] => 类型，请填写固定值1
+                    [description] => 类型，请返回固定值1
                     [placeholder] => 参数值
                     [type] => Text
                     [not_null] => 0
@@ -326,20 +492,21 @@
 
         )
 
-    [request_raw_body] => {    "Token": "msc-admin-baimeow",    "Timestrap": "0",    "Type": "1"}
+    [request_raw_body] => {    "Token": "SOME-TOKEN",    "Timestrap": "0",    "Type": "1"}
 )
 -->	    	<div class="page-wrapper hide" tabindex="163495" role="main">
 	        	<div class="page-inner">
 	          		<section class="markdown-section">
-	            		<h1 class="api-name-class"><i class="fa fa-link" aria-hidden="true"></i>api-post </h1>
+	            		<h1 class="api-name-class"><i class="fa fa-link" aria-hidden="true"></i>msc-api-v1 </h1>
 	            			            		<blockquote>
-	            			Msc 问卷id数据库记录（beta）	            		</blockquote>
+	            			msc-测试结果录入api-v1<br />
+此版本的api已不再有效，仅作为测试和参考使用	            		</blockquote>
 	            		                        	            		<h4>接口URL</h4>
-	            		<code>https://cp.amazefcc233.com/msc/test/v1-2/api-post.php?id=player_id</code>
+	            		<code>https://cp.amazefcc233.com/msc/api/test_v1-2/api-v1.php?id=player_id</code>
                         	            		<h4>请求方式</h4>
 	            		<code>POST</code>
                                                                             <h4>请求 Content-Type</h4>
-                            <code>multipart/form-data</code>
+                            <code>Array</code>
                                                 	            		<!-- 开始 request_all_header -->
 	            		
 	            		<!-- 开始 request_header -->
@@ -382,13 +549,13 @@
 			                  			<th>Timestrap</th>
 			                  			<td>0</td>
                                         <td>必填</td>
-			                  			<td>时间戳，请填写固定值0</td>
+			                  			<td>时间戳，请返回固定值0</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Type</th>
 			                  			<td>1</td>
                                         <td>必填</td>
-			                  			<td>类型，请填写固定值1</td>
+			                  			<td>类型，请返回固定值1</td>
 			                  		</tr>
 			                  				              						              			</tbody>
 		            		</table>
@@ -433,15 +600,16 @@
 	            			          		</section>
 	        	</div>
 	      	</div>
+            	      		      	<footer>
+	      		本文档由<a href="https://www.apipost.cn/?fr=doc" target="_blank">APIPOST接口调试与管理工具</a>生成
+	      	</footer>
 	    </div>
-		<!--
 	    <a href="javascript:;" class="navigation navigation-prev">
 	      	<i class="fa fa-angle-left" aria-hidden="true"></i>
 	    </a>
 	    <a href="javascript:;" class="navigation navigation-next" style="margin-right: 17px;">
 	      	<i class="fa fa-angle-right" aria-hidden="true"></i>
 	    </a>
-		-->
 	</div>
 </div>
 </body>
