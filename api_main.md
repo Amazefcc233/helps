@@ -21,6 +21,7 @@ fcc事实上仅仅提供并维护了这一个平台。
  -  ~~「搜图姬限定」自助添加白名单~~插件暂实装于搜图姬
  - 黑名单功能
  - ~~领养你自己的宠物！~~
+ - 自助报告服务器崩溃相关内容
  - 部分群含有特殊定制内容
 
 ## 关于
@@ -32,9 +33,10 @@ fcc事实上仅仅提供并维护了这一个平台。
    - 语言库 : Hanyuu
    - 全局黑名单 : fcc
    - ~~领养宠物 : Tnze「 https://cqp.cc/t/43785 」~~
-   - SiS : Tnze 
+   - 自助崩溃报告 : fcc
+   - SiS (for msc only) : Tnze 「 https://github.com/Miaoscraft/SiS 」
    - 占卜 (for msc only) : fcc
-   - 服务器人数 (for dc only) : fcc
+   - 服务器人数 (for dc/ucraft only) : fcc
    - 一个顶俩 (for msc only) : fcc
    - msc入群指导 (for msc only) : fcc
    - msc入群正版id自动审核 (for msc only) : fcc
@@ -46,3 +48,5 @@ fcc事实上仅仅提供并维护了这一个平台。
    - python 3.7
  - 功能实现：
    - mc相关功能 - Tnze「 https://github.com/Miaoscraft 」
+   - 新问卷自动提醒 - fcc
+   - SiS自动下载构建 - Tnze and fcc
