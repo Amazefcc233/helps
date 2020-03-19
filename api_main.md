@@ -41,7 +41,9 @@ fcc事实上仅仅提供并维护了这一个平台。
    - msc入群指导 (for msc only) : fcc
    - msc入群正版id自动审核 (for msc only) : fcc
    - sis reload message (for msc only) : fcc
-   - auto build (for msc only : fcc
+   - auto build (for msc only) : fcc
+   - 查ip : fcc
+   - 复读图片之垂直翻转 : Tnze
  - 环境：
    - Windows Server 2012 R2
    - nodejs
