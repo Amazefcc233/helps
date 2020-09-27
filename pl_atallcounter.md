@@ -49,6 +49,8 @@
  
 ## 下载
 
+  !> 正在适配mirai，预计国庆发布，敬请期待哦哦哦！  
+
   > v1.0.1 [插件下载](https://cqp.cc/t/43762) | 源码暂未公布   
   
   > v1.0.0 [插件下载](https://ro.amazefcc233.com/dl/plugins/atallcounter/1.0.0/com.amazefcc233.atallcounter.cpk) | 源码暂未公布   

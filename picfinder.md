@@ -91,15 +91,15 @@ COC7 骰子 QQ 机器人（实验）：参见 https://github.com/kasora/dice
 
 ## 关于
 
- - 机器人：酷Q **Pro**
+ - 机器人：Mirai console 1.0-M1 qqandroid 1.1.3
  - 插件（可供透露的）：
-   - http-api : richardchien/coolq-http-api（https://github.com/richardchien/coolq-http-api）
+   - cqhttp-mirai : 0/0
    - 井字棋 : Tnze
    - 语言库 : Hanyuu
    - 一言 : fcc（根据戴兜的开源com.daidou.yiyan一言插件进行bug修复和小功能升级）
    - at全体成员计数器 : fcc  
    - 全局黑名单 : fcc
-   - 搜图姬自助授权 : fcc
+   - ~~搜图姬自助授权 : fcc~~
  - 环境：
    - Windows Server 2012 R2
    - nodejs
@@ -113,10 +113,10 @@ COC7 骰子 QQ 机器人（实验）：参见 https://github.com/kasora/dice
 本机器人支持被邀请入群。
 请在使用本机器人时，注意以下事项：  
   1. 本机器人可能会收集您（或群中）所发送的图片信息
-  2. 为防止机器人被滥用，机器人需要授权才可使用。
+  2. ~~为防止机器人被滥用，机器人需要授权才可使用。
     - 首次入群可使用```/free picbot```激活7天试用授权（仅有一次机会，执行此命令您的身份必须为群主或管理员）
 	- 在其余情况下，请联系机器人管理员fcc进行授权续期。
 	- 目前机器人并没有收费计划，授权可免费续期，授权仅为防止滥用而存在。
 	- 机器人管理员持有收回授权的能力。
 	- 目前仅搜图需要授权。
-	- 您可输入```/picbot info```查询当前群的授权情况。
+	- 您可输入```/picbot info```查询当前群的授权情况。~~

@@ -1,6 +1,8 @@
 # fccの机器人 帮助页
 
-> No description, website, or topics provided.
+> No description, website, or topics provided.   
+
+> 一个时代终究还是结束了。
 
 Tips:  
 * 部分不支持GithubPages的地区无法浏览本内容
