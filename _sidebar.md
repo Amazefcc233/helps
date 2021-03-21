@@ -1,10 +1,10 @@
 - **机器人**
-  - [**APICenter**](api_main.md)
-  - [**搜图姬**](picfinder.md)
-  - [~~QQ&TG互联~~](qqtg.md)
+  - [**APICenter**](outdated.md)
+  - [**搜图姬**](outdated.md)
+  - [~~QQ&TG互联~~](outdated.md)
 - **插件**
-  - [一言](pl_hitokoto.md)
-  - [at全体成员计数器（即将开源）](pl_atallcounter.md)
-  - [全局黑名单（开源）](pl_banlist-ini.md)
-- [**捐赠**](donate.md)
-- [**更新公告**](update.md)
+  - [一言](outdated.md)
+  - [at全体成员计数器（即将开源）](outdated.md)
+  - [全局黑名单（开源）](outdated.md)
+- [**捐赠**](outdated.md)
+- [**更新公告**](outdated.md)
